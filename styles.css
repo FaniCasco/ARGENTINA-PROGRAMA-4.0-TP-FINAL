@@ -1,0 +1,451 @@
+/*font-family: 'Lato', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/*SECCION INICIO*/
+
+.inicio {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+        url(./IMG/secre.webp);
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.inicio .contenido-seccion {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.inicio .contenido-seccion header {
+    padding: 30px;
+}
+
+.inicio .logo {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 1),
+        0px 0px 10px rgba(255, 255, 255, 1),
+        0px 0px 15px rgba(255, 255, 255, 1),
+        0px 0px 20px rgb(255, 255, 255, 1),
+        0px 0px 30px rgba(255, 255, 255, 11),
+        0px 0px 40px rgba(255, 255, 255, 1),
+        0px 0px 55px rgba(73, 255, 24, 1),
+        0px 0px 75px rgb(10, 10, 10);
+
+}
+
+.info {
+    padding-bottom: 130px;
+}
+
+.info h1 {
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+.info h2 {
+    font-size: normal;
+    letter-spacing: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+
+
+/*menu*/
+#menu-desplegable {
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+#navbarToggleExternalContent ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.lista {
+    list-style-type: none;
+}
+
+button.navbar-toggler {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: rgb(161, 141, 126);
+    border: solid peru;
+    transition: .3s;
+}
+
+button.navbar-toggler:hover {
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 1),
+        0px 0px 10px rgba(255, 255, 255, 1),
+        0px 0px 15px rgba(255, 255, 255, 1),
+        0px 0px 20px rgb(255, 255, 255, 1),
+        0px 0px 30px rgba(255, 255, 255, 11),
+        0px 0px 40px rgba(255, 255, 255, 1),
+        0px 0px 55px rgb(238, 142, 91),
+        0px 0px 75px rgb(10, 10, 10);
+
+}
+
+#navbarToggleExternalContent {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+body {
+    margin-top: 2px;
+    box-sizing: border-box;
+    max-height: 100vh;
+    max-width: 100vw;
+
+
+}
+
+div .redes img {
+
+    width: 30px;
+    height: 30px;
+
+}
+
+.redes {
+
+    margin: 20px 0;
+
+}
+
+.redes a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(238, 142, 91);
+
+    border-radius: 25%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+.redes a:hover {
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 1),
+        0px 0px 10px rgba(255, 255, 255, 1),
+        0px 0px 15px rgba(255, 255, 255, 1),
+        0px 0px 20px rgb(255, 255, 255, 1),
+        0px 0px 30px rgba(255, 255, 255, 11),
+        0px 0px 40px rgba(255, 255, 255, 1),
+        0px 0px 55px rgb(238, 142, 91),
+        0px 0px 75px rgb(10, 10, 10);
+}
+
+
+#foto {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#foto img {
+    max-width: 200px;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(37, 1, 1, 1) 0%, rgba(238, 142, 91, 1) 100%);
+    border: solid 2px rgb(238, 142, 91);
+    position: absolute;
+    top: -100px;
+}
+
+/*SECCION SOBRE MI y estilos varios*/
+.sobremi {
+    background-color: rgb(250, 189, 156);
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+
+.sobremi .contenido-seccion {
+    max-width: 1000px;
+    margin-bottom: -5%;
+    padding: 0 20px;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.sobremi .contenido-seccion h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+.titulo-seccion {
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.sobremi .contenido-seccion .especial {
+    color: rgb(114, 43, 5);
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sobremi .contenido-seccion p {
+
+    margin: auto;
+    color: rgba(37, 1, 1, 1);
+    font-size: 20px;
+}
+
+.lista-2 {
+    text-align: justify;
+    margin-left: 30%;
+
+
+}
+
+/*columnas de seccion sobre mi*/
+.sobremi .contenido-seccion .fila {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.card-body {
+    background-color: rgb(250, 189, 156);
+    border: solid rgb(250, 189, 156);
+}
+
+.card-body:hover {
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 1),
+        0px 0px 10px rgba(255, 255, 255, 1),
+        0px 0px 15px rgba(255, 255, 255, 1),
+        0px 0px 20px rgb(255, 255, 255, 1),
+        0px 0px 30px rgba(255, 255, 255, 11),
+        0px 0px 40px rgba(255, 255, 255, 1),
+        0px 0px 55px rgb(238, 142, 91),
+        0px 0px 75px rgb(10, 10, 10);
+}
+
+/*SECCION EXPERIENCIA*/
+
+#experiencia {
+    background-color: rgb(250, 189, 156);
+    margin-bottom: -20px;
+}
+
+#experiencia h2 a {
+    text-decoration: none;
+    color: rgba(37, 1, 1, 1);
+
+}
+
+.experiencia .contenido-seccion .titulo-seccion {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+
+}
+
+.container {
+
+    margin-left: 10%;
+
+}
+
+/*PAGINA DE EXPERIENCIA LABORAL*/
+
+.laboral {
+    background-color: rgb(250, 189, 156);
+    padding: 140px 0 100px 0;
+    text-align: center;
+
+}
+
+.laboral .contenido-seccion {
+
+    margin: auto;
+    padding: 0 20px;
+}
+
+.titulo-seccion {
+    color: rgb(114, 43, 5);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+#foto-2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+#foto-2 img {
+    max-width: 200px;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(37, 1, 1, 1) 0%, rgba(238, 142, 91, 1) 100%);
+    border: solid 2px rgb(238, 142, 91);
+    position: absolute;
+    top: -100px;
+}
+
+.laboral-a a {
+    text-decoration: none;
+    color: rgba(37, 1, 1, 1);
+}
+
+/*footer*/
+
+footer {
+    background-image: url(./IMG/pie.jpg);
+    overflow: hidden;
+}
+
+footer .info-f {
+    padding-bottom: 10px;
+    margin-top: -15px;
+}
+
+footer .info-f h1 {
+    padding-top: 45px;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    text-align: center;
+    color: white;
+}
+
+footer .info-f h2 {
+    font-size: normal;
+    letter-spacing: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+}
+
+
+footer .info-f .redes-f img {
+
+    width: 30px;
+    height: 30px;
+
+}
+
+footer .info-f .redes-f {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+
+footer .info-f .redes-f a {
+    display: inline-block;
+    text-decoration: none;
+
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+footer .info-f .redes-f a:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+
+/*seccion contacto*/
+ .contacto-2 .contenido-seccion {
+    background-color: rgb(250, 189, 156);
+    
+}
+
+.form {
+    width: 25%;
+    height: auto;
+    background: #e6e6e6;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(50vh - 220px) auto;
+    padding: 60px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    position: relative
+}
+
+.form h2 {
+    margin: 10px 0;
+    padding-bottom: 10px;
+    width: 180px;
+    color: #78788c;
+    border-bottom: 3px solid #78788c
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s;
+    border-bottom: 2px solid #bebed2
+}
+
+.form input:focus {
+    border-bottom: 2px solid #78788c
+}
+
+.form p:before {
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: #5a5a5a
+}
+
+.form button {
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #78788c;
+    background: 0;
+    color: #5a5a6e;
+    cursor: pointer;
+    transition: all .3s
+}
+
+.form button:hover {
+    background: #78788c;
+    color: #fff
+}
+
