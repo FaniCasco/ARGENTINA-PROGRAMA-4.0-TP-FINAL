@@ -304,11 +304,23 @@ table {
 
 /*PAGINA DE EXPERIENCIA LABORAL*/
 
-.laboral {
-    background-color: rgb(250, 189, 156);
-    padding: 140px 0 100px 0;
-    text-align: center;
+.laboral h2 a{
+    text-decoration: none;
+    color: rgb(250, 189, 156);
 
+}
+.laboral .boton {
+    display: flex;
+    margin-top: 10%;
+    background-color: #7a593d;
+    border-radius: 25px;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
 }
 
 .laboral .contenido-seccion {
@@ -345,6 +357,9 @@ table {
     text-decoration: none;
     color: rgba(37, 1, 1, 1);
 }
+
+
+
 
 /*footer*/
 
@@ -488,6 +503,14 @@ footer .info-f .redes-f a:hover {
 }
 
 /*media queries*/
+@media screen and (min-width: 250px) {
+    .laboral .boton {
+      
+        margin-top: 30%;
+       
+       
+    }
+}
 
 @media screen and (min-width: 768px) {
     .contacto-2 .contenido-seccion {
