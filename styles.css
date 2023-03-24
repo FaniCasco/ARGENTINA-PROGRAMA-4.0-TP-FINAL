@@ -9,30 +9,31 @@
 }
 
 html {
-    
+
     scroll-behavior: smooth;
 }
 
 body {
-margin: 0;
+
     background-color: rgb(250, 189, 156);
-   
+
 
 
 }
+
 /*SECCION INICIO*/
 
 .inicio {
     background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
         url(./IMG/secre.webp);
     background-size: cover;
-
+    background-position: center center;
     color: #fff;
 }
 
 .inicio .contenido-seccion {
-    
-   
+max-width: 1000vw;
+margin: auto;
     text-align: center;
     padding: 0 10px;
 }
@@ -176,7 +177,7 @@ div .redes img {
 
 /*SECCION SOBRE MI y estilos varios*/
 .sobremi {
-  
+
     padding: 140px 0 100px 0;
     text-align: center;
 }
@@ -229,13 +230,8 @@ div .redes img {
     justify-content: space-between;
 }
 
-.card-body {
-    
-    background-color: rgb(250, 189, 156);
-    border: solid rgb(250, 189, 156);
-}
 
-.card-body:hover {
+#info-perfil:hover {
     box-shadow: 0px 0px 5px rgba(255, 255, 255, 1),
         0px 0px 10px rgba(255, 255, 255, 1),
         0px 0px 15px rgba(255, 255, 255, 1),
@@ -249,31 +245,60 @@ div .redes img {
 /*SECCION EXPERIENCIA*/
 
 #experiencia {
+
     background-color: rgb(250, 189, 156);
     margin-bottom: -20px;
 }
 
+#experiencia h2 {
+
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 #experiencia h2 a {
     text-decoration: none;
-    color: rgba(37, 1, 1, 1);
+    color: rgb(250, 189, 156);
 
 }
 
-.experiencia .contenido-seccion .titulo-seccion {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 30px;
-    margin-bottom: 20px;
-    font-weight: bolder;
-
-}
-
-table{
+.boton {
     display: flex;
-    justify-content: center;   
-     text-align: center;
+    margin: auto;
+    background-color: #7a593d;
+    border-radius: 25px;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
 
-   
+.boton:hover {
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 1),
+        0px 0px 10px rgba(255, 255, 255, 1),
+        0px 0px 15px rgba(255, 255, 255, 1),
+        0px 0px 20px rgb(255, 255, 255, 1),
+        0px 0px 30px rgba(255, 255, 255, 11),
+        0px 0px 40px rgba(255, 255, 255, 1),
+        0px 0px 55px rgb(238, 142, 91),
+        0px 0px 75px rgb(10, 10, 10);
+}
+
+
+
+
+
+
+
+table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
 
 }
 
@@ -324,8 +349,10 @@ table{
 /*footer*/
 
 footer {
+
     background-image: url(./IMG/pie.jpg);
-    overflow: hidden;
+
+
 }
 
 footer .info-f {
@@ -384,26 +411,26 @@ footer .info-f .redes-f a:hover {
 }
 
 /*seccion contacto*/
- .contacto-2 .contenido-seccion {
+.contacto-2 .contenido-seccion {
     margin-top: 30%;
     display: flex;
     justify-content: center;
     background-color: rgb(250, 189, 156);
-    
+
 }
 
 .form {
-   
+
     margin-top: 10%;
     margin-bottom: 10%;
-   
-    
+
+
     width: 80vw;
     height: auto;
     background: #e6e6e6;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px #000;
-  
+
     padding: 60px 30px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
@@ -415,7 +442,7 @@ footer .info-f .redes-f a:hover {
     padding-bottom: 10px;
     width: 180px;
     color: #78788c;
-   
+
 }
 
 .form input {
@@ -462,14 +489,14 @@ footer .info-f .redes-f a:hover {
 
 /*media queries*/
 
-@media  screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .contacto-2 .contenido-seccion {
-        margin-top: 10%;  
+        margin-top: 10%;
     }
-    
-.form {
-    
-    width: 50vw;
-  
-}
+
+    .form {
+
+        width: 50vw;
+
+    }
 }
