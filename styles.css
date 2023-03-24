@@ -385,6 +385,7 @@ footer .info-f .redes-f a:hover {
 
 /*seccion contacto*/
  .contacto-2 .contenido-seccion {
+    margin-top: 30%;
     display: flex;
     justify-content: center;
     background-color: rgb(250, 189, 156);
@@ -397,7 +398,7 @@ footer .info-f .redes-f a:hover {
     margin-bottom: 10%;
    
     
-    width: 50vw;
+    width: 80vw;
     height: auto;
     background: #e6e6e6;
     border-radius: 8px;
@@ -459,3 +460,16 @@ footer .info-f .redes-f a:hover {
     color: #fff
 }
 
+/*media queries*/
+
+@media  screen and (min-width: 768px) {
+    .contacto-2 .contenido-seccion {
+        margin-top: 10%;  
+    }
+    
+.form {
+    
+    width: 50vw;
+  
+}
+}
