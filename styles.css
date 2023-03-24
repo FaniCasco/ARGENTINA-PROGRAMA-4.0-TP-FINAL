@@ -13,19 +13,26 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+margin: 0;
+    background-color: rgb(250, 189, 156);
+   
+
+
+}
 /*SECCION INICIO*/
 
 .inicio {
     background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
         url(./IMG/secre.webp);
     background-size: cover;
-    background-position: center center;
+
     color: #fff;
 }
 
 .inicio .contenido-seccion {
     
-    margin: auto;
+   
     text-align: center;
     padding: 0 10px;
 }
@@ -112,14 +119,7 @@ button.navbar-toggler:hover {
 
 
 
-body {
-    margin-top: 2px;
-    box-sizing: border-box;
-    max-height: 100vh;
-    max-width: 100vw;
 
-
-}
 
 div .redes img {
 
@@ -176,7 +176,7 @@ div .redes img {
 
 /*SECCION SOBRE MI y estilos varios*/
 .sobremi {
-    background-color: rgb(250, 189, 156);
+  
     padding: 140px 0 100px 0;
     text-align: center;
 }
@@ -230,6 +230,7 @@ div .redes img {
 }
 
 .card-body {
+    
     background-color: rgb(250, 189, 156);
     border: solid rgb(250, 189, 156);
 }
@@ -384,22 +385,28 @@ footer .info-f .redes-f a:hover {
 
 /*seccion contacto*/
  .contacto-2 .contenido-seccion {
+    display: flex;
+    justify-content: center;
     background-color: rgb(250, 189, 156);
     
 }
 
 .form {
-    width: 25%;
+   
+    margin-top: 10%;
+    margin-bottom: 10%;
+   
+    
+    width: 50vw;
     height: auto;
     background: #e6e6e6;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px #000;
-    margin: calc(50vh - 220px) auto;
+  
     padding: 60px 30px;
-    max-width: calc(100vw - 40px);
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    position: relative
+    position: relative;
 }
 
 .form h2 {
@@ -407,7 +414,7 @@ footer .info-f .redes-f a:hover {
     padding-bottom: 10px;
     width: 180px;
     color: #78788c;
-    border-bottom: 3px solid #78788c
+   
 }
 
 .form input {
