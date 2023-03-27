@@ -9,16 +9,13 @@
 }
 
 html {
-
+   
     scroll-behavior: smooth;
 }
 
 body {
 
     background-color: rgb(250, 189, 156);
-
-
-
 }
 
 /*SECCION INICIO*/
@@ -119,47 +116,6 @@ button.navbar-toggler:hover {
 }
 
 
-
-
-
-div .redes img {
-
-    width: 30px;
-    height: 30px;
-
-}
-
-.redes {
-
-    margin: 20px 0;
-
-}
-
-.redes a {
-    display: inline-block;
-    text-decoration: none;
-    background-color: rgb(238, 142, 91);
-
-    border-radius: 25%;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    margin: 0 5px;
-    transition: .3s;
-}
-
-.redes a:hover {
-    box-shadow: 0px 0px 5px rgba(255, 255, 255, 1),
-        0px 0px 10px rgba(255, 255, 255, 1),
-        0px 0px 15px rgba(255, 255, 255, 1),
-        0px 0px 20px rgb(255, 255, 255, 1),
-        0px 0px 30px rgba(255, 255, 255, 11),
-        0px 0px 40px rgba(255, 255, 255, 1),
-        0px 0px 55px rgb(238, 142, 91),
-        0px 0px 75px rgb(10, 10, 10);
-}
-
-
 #foto {
     display: flex;
     justify-content: center;
@@ -195,6 +151,18 @@ div .redes img {
     font-size: 30px;
 
 }
+.sobremi .contenido-seccion a{
+ text-decoration: none;
+}
+.sobremi .contenido-seccion h3{
+    text-decoration: none;
+    color: rgb(114, 43, 5);
+   }
+
+   .sobremi .contenido-seccion h3:hover{
+    font-weight: bolder;
+    color: rgb(84, 31, 3);
+   }
 
 .titulo-seccion {
     text-align: center;
@@ -223,12 +191,35 @@ div .redes img {
 
 }
 
-/*columnas de seccion sobre mi*/
+/*seccion sobre mi*/
 .sobremi .contenido-seccion .fila {
     display: flex;
     margin-top: 30px;
     justify-content: space-between;
 }
+
+#info-perfil {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.p-detalle{
+    font-size: 1.5rem;
+}
+
+
+
+
+.lista-2{
+   margin: auto; 
+  text-align: center;
+ }
+ .edu{
+    margin-top: 10%;
+   margin-bottom: 5%;
+   text-align: center;
+  }
+
 
 
 #info-perfil:hover {
@@ -246,13 +237,15 @@ div .redes img {
 
 #experiencia {
 
+   
     background-color: rgb(250, 189, 156);
-    margin-bottom: -20px;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 #experiencia h2 {
 
-    text-align: center;
+  
     font-size: 1.5rem;
 }
 
@@ -303,7 +296,9 @@ table {
 }
 
 /*PAGINA DE EXPERIENCIA LABORAL*/
-
+.tabla {
+    margin-bottom: 15%;
+}
 .laboral h2 a{
     text-decoration: none;
     color: rgb(250, 189, 156);
@@ -364,10 +359,13 @@ table {
 /*footer*/
 
 footer {
+   background-color: #5a5a5a;
 
-    background-image: url(./IMG/pie.jpg);
 
-
+}
+footer p {
+    text-align: center;
+    color:#e6e6e6;
 }
 
 footer .info-f {
@@ -521,5 +519,14 @@ footer .info-f .redes-f a:hover {
 
         width: 50vw;
 
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .laboral .boton {
+      
+        margin-top: 15%;
+       
+       
     }
 }
