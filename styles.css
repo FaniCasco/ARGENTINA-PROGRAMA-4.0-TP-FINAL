@@ -489,17 +489,95 @@ footer .info-f .redes-f a:hover {
     margin: 8px 0 0;
     font-family: 'Montserrat', sans-serif;
     border: 2px solid #78788c;
-    background: 0;
-    color: #5a5a6e;
+    background-color: rgb(250, 189, 156);
+
+
     cursor: pointer;
     transition: all .3s
 }
 
 .form button:hover {
-    background: #78788c;
+    background: rgb(240, 164, 35);
     color: #fff
 }
 
+
+
+/*PAGINA MENSAJE*/
+.mensaje {
+    text-align:center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 2rem;
+}
+
+.btn-mje a{
+    text-decoration: none;
+    color:rgb(114, 43, 5);
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.btn-volver {
+   
+        display: flex;
+       margin: auto;
+        background-color: #7a593d;
+        border-radius: 25px;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        border: solid 1px rgb(250, 189, 156);
+    }
+
+.btn-volver a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:rgb(250, 189, 156);
+}
+
+.btn-volver:hover{
+   
+        box-shadow: 0px 0px 5px rgba(255, 255, 255, 1),
+            0px 0px 10px rgba(255, 255, 255, 1),
+            0px 0px 15px rgba(255, 255, 255, 1),
+            0px 0px 20px rgb(255, 255, 255, 1),
+            0px 0px 30px rgba(255, 255, 255, 11),
+            0px 0px 40px rgba(255, 255, 255, 1),
+            0px 0px 55px rgb(238, 142, 91),
+            0px 0px 75px rgb(10, 10, 10);
+    }
+
+    .cont {
+       margin-bottom: 5%;
+    }
+
+    .telefono, .mail {
+        text-align: center;
+        color:#f15806;
+        font-size: 1.3rem;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 2%;
+    }
+
+    .c-regresiva {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 5%;
+       text-align: center;
+       border-radius: 25px;
+       border:solid 2px #f15806;
+       width: 30%;
+       padding: 15px;
+       font-weight: bolder;
+       
+    }
+   
 /*media queries*/
 @media screen and (min-width: 250px) {
     .laboral .boton {
