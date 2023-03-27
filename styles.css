@@ -506,7 +506,7 @@ footer .info-f .redes-f a:hover {
 /*PAGINA MENSAJE*/
 .mensaje {
     text-align:center;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 5%;
     font-size: 2rem;
 }
@@ -572,7 +572,7 @@ footer .info-f .redes-f a:hover {
        text-align: center;
        border-radius: 25px;
        border:solid 2px #f15806;
-       width: 30%;
+     max-width: 80vw;
        padding: 15px;
        font-weight: bolder;
        
