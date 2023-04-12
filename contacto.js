@@ -20,7 +20,11 @@ const countdown = (deadline, elem, finalMessage) => {
     const el = document.getElementById(elem);
     const timerUpdate = setInterval(() => {
         let tiempo = getRemaintime(deadline);
-        el.innerHTML = `${tiempo.remainDays}d:${tiempo.remainHours}h:${tiempo.remainMinutes}m:${tiempo.remainSeconds}s:`;
+        el.innerHTML = `${tiempo.remainDays}
+       Días ~ ${tiempo.remainHours}
+        Horas ~ ${tiempo.remainMinutes}
+        Minutos ~ ${tiempo.remainSeconds}
+        Segundos `;
         if (tiempo.remainTime <= 1) {
             clearInterval(timerUpdate);
             el.innerHTML = finalMessage;
@@ -29,7 +33,7 @@ const countdown = (deadline, elem, finalMessage) => {
     }, 1000)
 };
 
-countdown('Jul 1 2023 14:47:10 GMT-0300', 'clock', 'GRACIAS POR VISITAR MI SITIO');
+countdown('May 25 2023 23:59:00 GMT-0300', 'clock', 'GRACIAS POR VISITAR MI SITIO Y...<br>¡¡¡FELÍZ ANIVERSARIO!!!');
 
 
 

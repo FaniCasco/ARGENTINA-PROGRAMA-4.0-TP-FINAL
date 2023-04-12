@@ -9,7 +9,7 @@
 }
 
 html {
-   
+
     scroll-behavior: smooth;
 }
 
@@ -29,8 +29,8 @@ body {
 }
 
 .inicio .contenido-seccion {
-max-width: 1000vw;
-margin: auto;
+    max-width: 1000vw;
+    margin: auto;
     text-align: center;
     padding: 0 10px;
 }
@@ -139,12 +139,12 @@ button.navbar-toggler:hover {
 }
 
 .sobremi .contenido-seccion {
-    
+
     margin: auto;
     max-width: 1000px;
     margin-bottom: -5%;
     padding: 0 20px;
- 
+
     text-align: center;
 }
 
@@ -153,18 +153,20 @@ button.navbar-toggler:hover {
     font-size: 30px;
 
 }
-.sobremi .contenido-seccion a{
- text-decoration: none;
+
+.sobremi .contenido-seccion a {
+    text-decoration: none;
 }
-.sobremi .contenido-seccion h3{
+
+.sobremi .contenido-seccion h3 {
     text-decoration: none;
     color: rgb(114, 43, 5);
-   }
+}
 
-   .sobremi .contenido-seccion h3:hover{
+.sobremi .contenido-seccion h3:hover {
     font-weight: bolder;
     color: rgb(84, 31, 3);
-   }
+}
 
 .titulo-seccion {
     text-align: center;
@@ -205,22 +207,23 @@ button.navbar-toggler:hover {
     text-align: center;
 }
 
-.p-detalle{
+.p-detalle {
     font-size: 1.5rem;
 }
 
 
 
 
-.lista-2{
-   margin: auto; 
-  text-align: center;
- }
- .edu{
+.lista-2 {
+    margin: auto;
+    text-align: center;
+}
+
+.edu {
     margin-top: 10%;
-   margin-bottom: 5%;
-   text-align: center;
-  }
+    margin-bottom: 5%;
+    text-align: center;
+}
 
 
 
@@ -239,7 +242,7 @@ button.navbar-toggler:hover {
 
 #experiencia {
 
-   
+
     background-color: rgb(250, 189, 156);
     margin-bottom: 5%;
     margin-top: 5%;
@@ -247,7 +250,7 @@ button.navbar-toggler:hover {
 
 #experiencia h2 {
 
-  
+
     font-size: 1.5rem;
 }
 
@@ -301,11 +304,13 @@ table {
 .tabla {
     margin-bottom: 15%;
 }
-.laboral h2 a{
+
+.laboral h2 a {
     text-decoration: none;
     color: rgb(250, 189, 156);
 
 }
+
 .laboral .boton {
     display: flex;
     margin-top: 10%;
@@ -361,13 +366,14 @@ table {
 /*footer*/
 
 footer {
-   background-color: #5a5a5a;
+    background-color: #5a5a5a;
 
 
 }
+
 footer p {
     text-align: center;
-    color:#e6e6e6;
+    color: #e6e6e6;
 }
 
 footer .info-f {
@@ -440,7 +446,7 @@ footer .info-f .redes-f a:hover {
     margin-bottom: 10%;
 
 
-    width: 80vw;
+    width: 90vw;
     height: auto;
     background: #e6e6e6;
     border-radius: 8px;
@@ -507,87 +513,95 @@ footer .info-f .redes-f a:hover {
 
 /*PAGINA MENSAJE*/
 .mensaje {
-    text-align:center;
+    text-align: center;
     margin-top: 10%;
     margin-bottom: 5%;
     font-size: 2rem;
 }
 
-.btn-mje a{
+.btn-mje a {
     text-decoration: none;
-    color:rgb(114, 43, 5);
+    color: rgb(114, 43, 5);
     font-size: 1rem;
     font-weight: bolder;
 }
 
 .btn-volver {
-   
-        display: flex;
-       margin: auto;
-        background-color: #7a593d;
-        border-radius: 25px;
-        padding: 15px 25px;
-        font-size: 24px;
-        cursor: pointer;
-        text-align: center;
-        text-decoration: none;
-        outline: none;
-        border: solid 1px rgb(250, 189, 156);
-    }
+
+    display: flex;
+    margin: auto;
+    background-color: #7a593d;
+    border-radius: 25px;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: solid 1px rgb(250, 189, 156);
+}
 
 .btn-volver a {
     font-size: 1.2rem;
     text-decoration: none;
-    color:rgb(250, 189, 156);
+    color: rgb(250, 189, 156);
 }
 
-.btn-volver:hover{
-   
-        box-shadow: 0px 0px 5px rgba(255, 255, 255, 1),
-            0px 0px 10px rgba(255, 255, 255, 1),
-            0px 0px 15px rgba(255, 255, 255, 1),
-            0px 0px 20px rgb(255, 255, 255, 1),
-            0px 0px 30px rgba(255, 255, 255, 11),
-            0px 0px 40px rgba(255, 255, 255, 1),
-            0px 0px 55px rgb(238, 142, 91),
-            0px 0px 75px rgb(10, 10, 10);
-    }
+.btn-volver:hover {
 
-    .cont {
-       margin-bottom: 5%;
-    }
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 1),
+        0px 0px 10px rgba(255, 255, 255, 1),
+        0px 0px 15px rgba(255, 255, 255, 1),
+        0px 0px 20px rgb(255, 255, 255, 1),
+        0px 0px 30px rgba(255, 255, 255, 11),
+        0px 0px 40px rgba(255, 255, 255, 1),
+        0px 0px 55px rgb(238, 142, 91),
+        0px 0px 75px rgb(10, 10, 10);
+}
 
-    .telefono, .mail {
-        text-align: center;
-        color:#f15806;
-        font-size: 1.3rem;
-        text-decoration: none;
-        font-weight: bold;
-        margin-left: 2%;
-    }
+.cont {
+    margin-bottom: 5%;
+}
 
-    .c-regresiva {
-        display: flex;
-        margin: auto;
-        justify-content: center;
-        margin-bottom: 5%;
-       text-align: center;
-       border-radius: 25px;
-       border:solid 2px #f15806;
-     max-width: 80vw;
-       padding: 15px;
-       font-weight: bolder;
-       
-    }
-   
+.telefono,
+.mail {
+    text-align: center;
+    color: #f15806;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+.c-regresiva {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 5%;
+    text-align: center;
+    border-radius: 25px;
+    border: solid 2px #f15806;
+    max-width: 80vw;
+    padding: 15px;
+    font-weight: bolder;
+
+}
+
 /*media queries*/
 @media screen and (min-width: 250px) {
     .laboral .boton {
-      
+
         margin-top: 30%;
-       
-       
     }
+
+    .telefono, .mail {
+        font-size: 1rem;
+    }
+
+  #clock {
+    font-size: 1.3rem;
+    
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -600,13 +614,15 @@ footer .info-f .redes-f a:hover {
         width: 50vw;
 
     }
-}
+    #clock {
+        font-size: 2rem;
+        
+      }
+      .laboral .boton {
 
-@media screen and (min-width: 768px) {
-    .laboral .boton {
-      
         margin-top: 15%;
-       
-       
+
+
     }
 }
+
