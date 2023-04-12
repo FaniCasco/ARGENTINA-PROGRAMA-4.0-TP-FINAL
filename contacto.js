@@ -33,7 +33,7 @@ const countdown = (deadline, elem, finalMessage) => {
     }, 1000)
 };
 
-countdown('May 25 2023 23:59:00 GMT-0300', 'clock', 'GRACIAS POR VISITAR MI SITIO Y...<br>¡¡¡FELÍZ ANIVERSARIO!!!');
+countdown('May 22 2023 23:59:00 GMT-0300', 'clock', 'GRACIAS POR VISITAR MI SITIO Y...<br>¡¡¡FELÍZ ANIVERSARIO!!!');
 
 
 
